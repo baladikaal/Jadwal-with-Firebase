@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".MenuUjian.Matkul.UjianMatkulUpdateActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ujian_matkul_judul_update"
+        android:hint="Mata Kuliah"
+        android:maxLines="1"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ujian_matkul_ruangan_update"
+        android:hint="Ruangan"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ujian_matkul_hari_update"
+        android:hint="Hari"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ujian_matkul_jam_update"
+        android:hint="Jam Mata kuliah"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textColor="@color/putih"
+        android:background="@drawable/custom_button_ungu"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/btn_save_matkul_ujian"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textColor="@color/putih"
+        android:background="@drawable/custom_button_ungu"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btn_cancel_matkul_ujian"/>
+
+</LinearLayout>

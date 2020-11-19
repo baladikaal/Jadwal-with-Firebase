@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "291840153996",
+    "firebase_url": "https://kuliahapp-722b9.firebaseio.com",
+    "project_id": "kuliahapp-722b9",
+    "storage_bucket": "kuliahapp-722b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291840153996:android:4214916922451160241ea9",
+        "android_client_info": {
+          "package_name": "com.baladika.jadwalkuliah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291840153996-0n19h765oa068qv514oajkkukbfuhja6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baladika.jadwalkuliah",
+            "certificate_hash": "a322b3d2750b4ee34e2526306bc40d80136dcb60"
+          }
+        },
+        {
+          "client_id": "291840153996-am593t9jdbn0h63rsjbip85tf1lhjuth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCM_TIyyTdUAcsw4mHtKfFKfqZtut1pMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291840153996-am593t9jdbn0h63rsjbip85tf1lhjuth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

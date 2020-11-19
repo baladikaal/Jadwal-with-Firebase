@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MenuUjian.Semester.UjianSemesterUpdateActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ujian_sms_judul_update"
+        android:hint="Semester"
+        android:maxLines="1"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ujian_sms_tahun_update"
+        android:hint="Tahun ajaran"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="@color/putih"
+        android:background="@drawable/custom_button_ungu"
+        android:id="@+id/btn_save_ujian_sms"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:textColor="@color/putih"
+        android:background="@drawable/custom_button_ungu"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btn_cancel_ujian_sms"/>
+
+
+</LinearLayout>

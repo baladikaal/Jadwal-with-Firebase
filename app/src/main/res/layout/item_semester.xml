@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:id="@+id/semester_layout"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester 0"
+            android:textSize="23sp"
+            android:id="@+id/sms_judul"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:gravity="right"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="PTA 2019/2020"
+            android:textSize="23sp"
+            android:id="@+id/sms_tahun"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

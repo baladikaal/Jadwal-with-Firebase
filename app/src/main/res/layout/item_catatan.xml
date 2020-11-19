@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/catatan_layout"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Judul Catatan"
+                android:textSize="20sp"
+                android:id="@+id/catatan_judul"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="isi catatan"
+                android:textSize="15sp"
+                android:id="@+id/catatan_isi"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:gravity="right"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="TGL"
+            android:textSize="15sp"
+            android:id="@+id/catatan_tgl"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

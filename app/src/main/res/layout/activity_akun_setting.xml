@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:scrollbars="none"
+    tools:context=".MenuAkun.AkunSettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SETTING ACCOUNT"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/ungu"/>
+
+        <TableLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Email             :"/>
+
+                <TextView
+                    android:id="@+id/setting_email"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Email"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="Nama             :"/>
+
+                <EditText
+                    android:id="@+id/setting_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Nama"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="NPM               :"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/setting_npm"
+                    android:hint="NPM"/>
+            </TableRow>
+
+            <TableRow
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Kelas              :"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/setting_kelas"
+                android:hint="Kelas"/>
+        </TableRow>
+
+        </TableLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setting_foto"
+            android:layout_width="165dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_foreground"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="1dp" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPLOAD"
+            android:background="@drawable/custom_button_ungu"
+            android:textColor="@color/putih"
+            android:id="@+id/btn_upload_akun"/>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="167dp"
+                android:layout_height="65dp"
+                android:textSize="18sp"
+                android:background="@drawable/custom_button_ungu"
+                android:textColor="@color/putih"
+                android:id="@+id/btn_cancel_akun"
+                android:text="KEMBALI"/>
+
+            <Button
+                android:layout_marginLeft="45dp"
+                android:layout_width="167dp"
+                android:layout_height="65dp"
+                android:textSize="18sp"
+                android:background="@drawable/custom_button_ungu"
+                android:textColor="@color/putih"
+                android:id="@+id/btn_save_akun"
+                android:text="SIMPAN"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

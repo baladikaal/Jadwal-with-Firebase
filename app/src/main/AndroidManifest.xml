@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baladika.jadwalkuliah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".AppOffline"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuAkun.AkunSettingActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".MenuAkun.AkunActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuLab.Lab.LabUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuLab.Lab.LabListActivity" />
+        <activity android:name=".MenuUjian.Matkul.UjianMatkulUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuUjian.Matkul.UjianMatkulListActivity" />
+        <activity android:name=".MenuUjian.Semester.UjianSemesterUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuUjian.Semester.UjianSemesterListActivity" />
+        <activity android:name=".MenuLab.Hari.HariListActivity" />
+        <activity android:name=".MenuKuliah.Catatan.CatatanUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuKuliah.Catatan.CatatanListActivity" />
+        <activity android:name=".MenuKuliah.CekTugas.CekTugasUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuKuliah.CekTugas.CekTugasListActivity" />
+        <activity android:name=".MenuKuliah.Matkul.MatkulActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuKuliah.Matkul.MatkulUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuKuliah.Matkul.MatkulListActivity" />
+        <activity android:name=".MenuKuliah.Semester.SemesterUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MenuKuliah.Semester.SemesterListActivity" />
+        <activity android:name=".Menu_masuk.SignUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Menu_masuk.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
